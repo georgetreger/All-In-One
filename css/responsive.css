@@ -169,6 +169,11 @@
       .news-container .input-search {
       overflow: hidden;
     }
+        .input-search .form-container {
+          margin-bottom: 2.1rem;
+          white-space: wrap;
+    
+        }
  }
 
  @media (max-width: 360px){
