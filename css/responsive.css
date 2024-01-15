@@ -73,6 +73,18 @@
           white-space: nowrap;
           margin-bottom: 2rem;
         }
+        .food-hero .food-wrap {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        }
+        
+      .search-meals input {
+       width: 600px;
+        
+     }
        
  }
 
@@ -101,6 +113,18 @@
       .city-locate .city-1{
         width: 150px;
       }
+            .food-hero .food-wrap {
+              display: flex;
+              justify-content: center;
+              text-align: center;
+              flex-direction: column;
+              flex-wrap: wrap;
+            }
+      
+            .search-meals input {
+              width: 600px;
+      
+            }
  }
 
  @media (max-width: 576px){
@@ -142,11 +166,23 @@
    .search-header .search-continer{
        display: flex;
    }
-     .news-container .input-search {
-          overflow: hidden;
+     /* .news-container .input-search {
+          /* overflow: hidden; */
+     /* }  */
+    .food-hero .food-wrap{
+      display: flex;
+      /* justify-content: center;
+      align-items: center; */
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+     .food-wrap .search-meals{
+       width: 100%;
+       text-align: center;
      }
-      
+     
  }
+   
 
  @media (max-width: 412px){
   .loop-wrap .right{

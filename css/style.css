@@ -109,7 +109,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #222;
+    background-color: var(--bs-dark);
   }
 
 
@@ -142,6 +142,7 @@ main{
     /* position: sticky; */
     bottom: 0;
     position: relative;
+     
   }
 
 aside{
@@ -741,6 +742,109 @@ aside{
       cursor: pointer;
      }
   /* =======================footer ends here================= */
+
+
+    /* =======================================food start==================== */
+     .food-hero{
+      height: 100vh;
+      width: 100%;
+      background: url(../images/food4.jpg);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+     }
+      .food-wrap{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          gap: 2rem;
+          
+        padding: 30px 30px 30px 30px;
+      }
+        .newFood{
+          height: 400px;
+           width: 100%;
+            /* border-radius: 50%; */
+           /* overflow: hidden; */
+           text-align: center;
+        }
+      .newFood img{
+        width: 80%;
+         height: 100%;
+           border-radius: 50%;
+      }
+      .search-food{
+        width: 100%;
+        text-align: center;
+      }
+      .random-food{
+        width: 90%;
+      }
+      .search-meals{
+        position: relative;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+      }
+      .search-meals input{
+        width: 70%;
+        padding: 0.6rem;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+      }
+       .search-meals button{
+         border: none;
+         outline: none;
+         background-color: transparent; 
+      } 
+
+      button .fa-search{
+        color: #eee;
+        font-size: 1.4rem;
+        cursor: pointer;
+        background-color: var(--brandColor);
+         padding: 0.8rem;
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          width: 70px;
+      }
+
+
+
+      .menu-container{
+          width: 100%;
+          height: 100%;
+          padding: 20px 20px 20px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+
+      .menu2{
+        height: 100%;
+        width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #fff;
+         text-align: center;
+         padding-bottom: 0.7rem;
+      }
+      .menu2 img{
+        width: 100%;
+      }
+    /* =======================================food start====================*/
+     
   /* =============================selectors ends here=============== */
 
 
