@@ -856,7 +856,10 @@ aside{
    justify-content: center;
    align-items: center;
    flex-direction: column;
-
+   
+  }
+  .food-mine{
+  
   }
 
   .food-wrap{
