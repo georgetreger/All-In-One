@@ -180,7 +180,9 @@
        width: 100%;
        text-align: center;
      }
-     
+    .menu-in{
+      margin-top: 1.8rem;
+    }
  }
    
 
