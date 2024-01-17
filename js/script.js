@@ -130,6 +130,8 @@ const food1El = document.querySelector(".pizza-menu");
 const foodMenuEl = document.querySelector(".header-menu");
     console.log(foodMenuEl);
 const searchFoodEl = document.querySelector(".search-input");
+const searchFaEl = document.querySelector('.search-fa');
+ const formInputEl = document.querySelector('.form-in')
 
 
   
@@ -236,3 +238,10 @@ searchBtnEl.addEventListener("click", () => {
 
 
     setCategories();
+
+
+
+      
+    searchFaEl.addEventListener('click', ()=>{
+    const formSubmit = formInputEl.value.trim(); 
+    })
