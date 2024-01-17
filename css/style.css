@@ -845,127 +845,123 @@ aside{
       }
       .menu2 img{
         width: 100%;
+        
       }
     /* =======================================food start====================*/
      
    /* ============================ another page food start her============== */
-  .food-content{
-   height: 100%;
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   
-  }
-  .food-mine{
-  
-  }
-
-  .food-wrap{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .food-1{
-    padding: 20px 20px 20px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-    .food-headers{
-       padding: 30px 30px 30px 30px;
-      display: flex;
-    justify-content: center;
-    align-items: center;
-      flex-wrap: wrap;
-      width: 100%;
-    }
-
-     .input-food{
-      width: 500px;
-     }
-
-
-
-      .input-food input{
-        padding: 0.6rem;
-        font-size: 1rem;
-        width: 80%;
-        outline: none;
-        border: 2px solid var(--brandColor);
-        border-radius: 5px;
-      }
-
-     .menu-in{
-      width: 500px;
-       display: flex;
-       gap: 1rem;
-       cursor: pointer;
-        color: var(--brandColor);
-        font-size: 1.5rem;
-     }
-      .menu-in button{
-        padding: 0.6rem;
-          font-size: 1rem;
-          outline: none;
-          background-color: var(--brandColor);
-          color: #eee;
-          border: none;
-          border-radius: 10px;
-          cursor: pointer;
-          width: 100px;
-          transition: all 0.5s ease-in-out;
-      }
-    .menu-in button:hover{
-      background-color: #000;
-    }
-  .down-food{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 350px;
-    height: 100%;
-    margin-bottom: 1rem;
-    background-color: #fff;
-    border-radius: 10px;
-    padding-bottom: 1rem;
-    box-shadow: var(--box-shadow);
-    transition: all 0.5s ease-in-out;
-    text-align: center;
-  }
-   
-
-     .down-food:hover{
-       transform: scale(1.1);
-     }
-
-  .down-food img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-    padding-bottom: 1rem;
-  }
-   .down-food p{
-     padding: 0.6rem;
-     font-weight: 800;
-      letter-spacing: 1px;
-   }
-    .down-food span{
-       font-size: 1.5rem;
-    }
-     .down-food h4{
-      font-size: 1.4rem;
-     }
-      .down-food h5{
-        font-size: 1.5rem;
-        margin: 0.5rem;
-      }
+      /* .pizza-container{
+        height: 100vh;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
       
+      } */
+     .pizza-wrap{
+      padding: 30px 30px 30px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+     }
+      .pizza-header{
+        display: flex;
+        justify-content: space-between;
+         width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5rem;
+      }
+
+      .pizza-header 
+      .input-conta{
+        width: 530px;
+      }
+
+        .header-menu{
+          width: 600px;
+        }
+       .input-conta{
+        display: flex;
+        justify-content: center;
+       }
+       .header-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+       }
+
+      .input-conta input{
+         width: 70%;
+         padding: 0.7rem;
+         border-radius: 10px;
+         border: 2px solid var(--brandColor);
+         outline: none;
+         font-size: 1rem;
+         
+      }
+      .header-menu span{
+        font-size: 1rem;
+        padding: 0.7rem;
+        background-color: var(--brandColor);
+        width: 100px;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #eee;
+        transition: all 0.5s ease-in-out;
+      }
+      .header-menu span:hover{
+       background-color: #000;
+       border: 2px solid var(--brandColor);
+      }
+        .pizza-menu{
+          padding: 30px 30px 30px 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+           width: 100%;
+          gap: 1rem;
+        
+        }
+        .pizza{
+          width: 300px;
+           height: 420px;
+           background-color: #fff;
+           border-radius: 10px;
+           box-shadow: var(--box-shadow);
+            text-align: center;
+            margin-bottom: 1rem;
+            transition: all 0.5s ease-in-out;
+        }
+
+         .pizza:hover{
+          transform: scale(1.2);
+         }
+         .pizza h2,
+         h3,
+         span,
+         p{
+          margin: 1rem;
+         }
+
+         .pizza span{
+          color: var(--brandColor);
+          font-size: 1.5rem;
+         }
+      .pizza img{
+        width: 100%;
+         
+         object-fit: cover;
+         border-radius: 10px 10px 0 0 ;
+      }
   /* ============================ another page food start her============== */
 
   /* =============================selectors ends here=============== */

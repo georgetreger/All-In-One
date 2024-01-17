@@ -21,7 +21,7 @@
     title: "godzilla milkshake",
     category: "shakes",
     price: 6.99,
-    img: "./images/item-3.jpeg",
+    img: "./images/food3.jpg",
     desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
   },
   {
@@ -77,7 +77,7 @@
     title: "quarantine buddy",
     category: "shakes",
     price: 16.99,
-    img: "./images/menu-1.jpg",
+    img: "./images/food3.jpg",
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
   {
@@ -117,7 +117,7 @@
     title: "quarantine buddy",
     category: "shakes",
     price: 16.99,
-    img: "./images/menu-6.webp",
+    img: "./images/food3.jpg",
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
 ];
@@ -126,10 +126,10 @@ const searchBtnEl = document.querySelector(".btn");
 const menuContainerEl = document.querySelector(".menu-container");
 const foodCEl = document.querySelector(".food");
 
-const food1El = document.querySelector(".food-1");
-const foodMenuEl = document.querySelector(".menu-in");
+const food1El = document.querySelector(".pizza-menu");
+const foodMenuEl = document.querySelector(".header-menu");
     console.log(foodMenuEl);
-const searchFoodEl = document.querySelector(".search");
+const searchFoodEl = document.querySelector(".search-input");
 
 
   
@@ -182,13 +182,14 @@ searchBtnEl.addEventListener("click", () => {
  const downMenu = (filterMenu) =>{
   food1El.innerHTML = filterMenu.map(menuData =>
     `
-     <div class="down-food">
-          <img src="${menuData.img}" alt="" class="images">
-            <h4 class="title">${menuData.title}</h4>
-             <h5 class="category">${menuData.category}</h5>
-            <span class="price">$${menuData.price}</span>
-              <p class="desc">${menuData.desc}</p>
-              </div>
+     <div class="pizza">
+                    <img src="${menuData.img}" alt="" class="images">
+                    
+                     <h3 class="title">${menuData.title}</h3>
+                     <h2 class="category">${menuData.category}</h2>
+                      <span class="price">$${menuData.price}</span>
+                      <p class="desc">${menuData.desc}</p>
+                </div>
     `
     ).join('');
  };
