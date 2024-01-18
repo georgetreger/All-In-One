@@ -153,6 +153,7 @@ aside{
     min-height: 100%;
     display: none;
    z-index: 3;
+   transition: all 0.3s;
 }
 
 
@@ -964,6 +965,108 @@ aside{
          border-radius: 10px 10px 0 0 ;
       }
   /* ============================ another page food start her============== */
+       .blog-top-container{
+        margin-top: 5rem;
+        padding: 20px 20px 20px 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       .blog-top{
+          position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+        width: 100%;
+          height: 400px;
+          overflow: hidden;
+       }
+        .blog-top img{
+          width: 100%;
+          object-fit: cover;
+        }
+         .blog-top-text{
+          position: absolute;
+          
+         }
+
+         .blog-top-text h1{
+           color: #eee;
+           font-size: 10rem;
+           letter-spacing: 16px;
+         }
+          .blog-down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .blog-down p{
+             width: 70%;
+             color: #eee;
+          }
+
+          .bottom-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+          }
+
+          .blog-1{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            transition: all 0.5s ease-in-out;
+          }
+
+          .blog-1:hover{
+            opacity: 0.8;
+          }
+
+          .blog-1 img{
+            width: 100%;
+            object-fit: cover;
+          }
+          .content-b{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .content-b h3{
+            color: #f1f1f1;
+            font-size: 1rem;
+            font-weight: 900;
+          }
+          .content-b a{
+            margin-top: 1rem;
+            background-color: #fff;
+            padding: 0.7rem;
+            color: #000;
+            font-size: 1.3rem;
+            font-weight: bold;
+            transition: all 0.5s ease-in-out;
+          }
+
+          .content-b a:hover{
+            background-color: #000;
+            color: #eee;
+          }
+    /* ==========================blog start here============================= */
+    
+    /* ==========================blog start here============================= */
     /* ==========================form start here====================================== */
         .form-wrap{
           margin-top: 5rem;

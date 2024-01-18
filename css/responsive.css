@@ -183,7 +183,17 @@
     .menu-in{
       margin-top: 1.8rem;
     }
- }
+       .blog-top .blog-top-text h1 {
+          color: #eee;
+          font-size: 3.4rem;
+        
+        }
+        .blog-top-container .blog-top{
+          margin-top: -5rem;
+        }
+    
+    } 
+     
    
 
  @media (max-width: 412px){
